@@ -28,7 +28,7 @@ namespace MyVet.Prism.ViewModels
             IsEnabled = true;
 
             //TODO: Delete this lines
-            Email = "jzuluaga55@hotmail.com";
+            Email = "iva29234@hotmail.com";
             Password = "123456";
         }
 
