@@ -5,7 +5,7 @@
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="MyVet.Prism.Views.PetPage"
              Title="{Binding Title}">
-    <!--gg-->
+   
     <StackLayout
         Padding="10">
         <Image
