@@ -36,11 +36,11 @@
             <Label
                 Grid.Column="0"
                 Grid.Row="0"
+                FontAttributes="Bold"
                 Text="Name"/>
             <Label
                 Grid.Column="1"
                 Grid.Row="0"
-                FontAttributes="Bold"
                 Text="{Binding Pet.Name}"/>
             <Label
                 Grid.Column="0"
