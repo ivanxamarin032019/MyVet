@@ -17,6 +17,7 @@ namespace MyVet.Prism
 
         protected override async void OnInitialized()
         {
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MTQ2MDk1QDMxMzcyZTMyMmUzMENNTUtwT3JoemlMTWttMW1uNFp1dHNzRzRJN05jK3RtVGpXWEdObDY5UEU9");
             InitializeComponent();
 
             await NavigationService.NavigateAsync("NavigationPage/LoginPage");
