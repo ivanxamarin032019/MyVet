@@ -31,7 +31,7 @@ namespace MyVet.Web.Data.Entities
             : $"https://myvet1.azurewebsites.net{ImageUrl.Substring(1)}";
 
         [Display(Name = "Born")]
-        [DisplayFormat(DataFormatString = "{0:yyyy/MM/dd}")]
+        [DisplayFormat(DataFormatString = "{0:yyyy/MM/dd}", ApplyFormatInEditMode = true)]
         public DateTime BornLocal => Born.ToLocalTime();
 
         public PetType PetType { get; set; }
